@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: blue; /* Ini akan membuat semua teks berwarna biru */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6495ED;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px; /* Sesuaikan ukuran font untuk judul */
+}
+
+header input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+section {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+}
+
+h2, h3 {
+    font-size: 18px; /* Ukuran font untuk subjudul */
+    margin-bottom: 10px;
+    color: blue; /* Tetap biru */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px; /* Sesuaikan ukuran font tombol */
+}
+
+#bookSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bookSection div {
+    width: 45%;
+}
+
+.book-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.book-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.book-item div {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4169E1;
+}
+
+button[data-testid="bookItemDeleteButton"] {
+    background-color: red;
+}
+
+button[data-testid="bookItemEditButton"] {
+    background-color: #ffc107;
+}
+
+
+#unfinished-books, #finished-books {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 100px;
+    border-radius: 5px;
+    
+}
